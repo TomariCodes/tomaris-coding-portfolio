@@ -1,5 +1,6 @@
 :root {
   --primary-color: #6d8ada;
+  --secondary-color: #edeff5;
   --heading-font: "Merriweather", serif;
   --body-font: "Poppins", sans-serif;
 }
@@ -22,6 +23,10 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-size: 16px;
   line-height: 30px;
@@ -32,7 +37,7 @@ body {
 }
 
 .hero {
-  background-color: #edeff5;
+  background-color: var(--secondary-color);
   text-align: center;
   padding: 160px 0;
 }
@@ -78,7 +83,6 @@ h1 {
 .content p {
   font-size: 14px;
   
-
 }
 
 .photo-column {
@@ -135,6 +139,45 @@ h1 {
   padding: 120px 60px;
 }
 
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: #ffffff;
+  background-color: var(--primary-color);
+}
+
 
 @media (max-width: 940px) {
   .hero h1, h1 {
@@ -157,5 +200,13 @@ h1 {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  h4 {
+    font-size: 26px;
+  }
+
+  .btn {
+    font-size: 18px;
   }
 }
