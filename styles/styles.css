@@ -87,7 +87,6 @@ h1 {
 
 .photo-column {
   max-width: 560px;
-  max-height: 560px;
   border-radius: 4px;
   overflow: hidden;
   padding: 0;
@@ -95,7 +94,6 @@ h1 {
 
 .about-photo {
   width: 100%;
-  transform: translateY(-20%);
 }
 
 .btn-branding {
