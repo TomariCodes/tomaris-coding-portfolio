@@ -23,7 +23,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -62,15 +62,16 @@ h1 {
 }
 
 .content-container {
-  padding: 160px 0;
+  padding: 60px 20px;
 }
 
-.content-container h1, .content h1 {
+.content-container h1,
+.content h1 {
   font-size: 64px;
 }
 
 .content {
-  margin: 30px;  
+  margin: 30px;
 }
 
 .content h3 {
@@ -82,7 +83,6 @@ h1 {
 
 .content p {
   font-size: 14px;
-  
 }
 
 .photo-column {
@@ -149,17 +149,27 @@ footer .contact-box {
   border-radius: 10px;
 }
 
+footer .contact-box p {
+  margin: 0;
+}
+
 footer .email-link {
   text-decoration: none;
   color: #000;
   font-size: 24px;
 }
 
-footer .contact-box p {
-  margin: 0;
+footer p {
+  font-size: 16px;
 }
 
-footer .email-link:hover {
+footer p a {
+  color: #000;
+  text-decoration: none;
+}
+
+footer .email-link:hover,
+footer p a:hover {
   color: var(--primary-color);
 }
 
@@ -178,9 +188,9 @@ footer .social-links a:hover {
   background-color: var(--primary-color);
 }
 
-
 @media (max-width: 940px) {
-  .hero h1, h1 {
+  .hero h1,
+  h1 {
     font-size: 44px;
     line-height: 1.5;
   }
@@ -190,7 +200,6 @@ footer .social-links a:hover {
   }
 
   .content-container {
-    padding: 80px 20px;
     text-align: center;
     padding: 0;
   }
@@ -202,7 +211,7 @@ footer .social-links a:hover {
     text-align: center;
   }
 
-  h4 {
+  h3 {
     font-size: 26px;
   }
 
