@@ -49,36 +49,49 @@ h1 {
 }
 
 .hero h2,
-.about-section h2 {
+.content-container h2 {
   font-family: var(--body-font);
   font-weight: 500;
   font-size: 24px;
   color: #272142;
 }
 
-.about-section {
+.content-container {
   padding: 160px 0;
 }
 
-.about-section h1 {
+.content-container h1, .content h1 {
   font-size: 64px;
 }
 
-.about-section img {
-  width: 100%;
-  transform: translateY(-20%);
+.content {
+  margin: 30px;  
 }
 
-.about-section-content {
-margin: 30px;
+.content h3 {
+  font-size: 24px;
+  font-family: var(--body-font);
+  line-height: 1;
+  margin: 20px 0;
+}
+
+.content p {
+  font-size: 14px;
+  
 
 }
+
 .photo-column {
   max-width: 560px;
   max-height: 560px;
   border-radius: 4px;
   overflow: hidden;
   padding: 0;
+}
+
+.about-photo {
+  width: 100%;
+  transform: translateY(-20%);
 }
 .btn-branding {
   background: var(--primary-color);
@@ -116,7 +129,7 @@ margin: 30px;
     padding: 80px 20px;
   }
 
-  .about-section {
+  .content-container {
     padding: 80px 20px;
     text-align: center;
     padding: 0;
